@@ -11,7 +11,7 @@ const fields = [
 
 const App = () => {
   const handleSubmit = (formData) => {
-    console.log('Form submitted with values:', formData);
+    console.log(formData);
     // Here you can perform any further actions with the form data, like sending it to an API
   };
 
